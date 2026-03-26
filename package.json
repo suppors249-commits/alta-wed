@@ -6,11 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "vite preview",
-    "prevercel-build": "chmod +x node_modules/.bin/vite",
-    "vercel-build": "vite build"
+    "start": "vite preview"
   },
   "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+
     "@emotion/react": "11.14.0",
     "@emotion/styled": "11.14.1",
     "@fortawesome/fontawesome-svg-core": "^7.2.0",
@@ -74,17 +75,15 @@
     "swiper": "^12.1.2",
     "tailwind-merge": "3.2.0",
     "tw-animate-css": "1.3.8",
-    "vaul": "1.1.2",
+    "vaul": "1.1.2"
+  },
+  "devDependencies": {
     "vite": "6.3.5",
     "@vitejs/plugin-react": "4.7.0",
     "@tailwindcss/vite": "4.1.12",
     "tailwindcss": "4.1.12"
   },
-  "peerDependencies": {
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
-  },
   "engines": {
-    "node": "24.x"
+    "node": "18.x"
   }
 }
