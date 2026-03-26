@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef } from "react";
 import { Users, Award, UserCheck, Building2 } from "lucide-react";
-import ritalImage from "../public/rital.png"
 const stats = [
   {
     icon: Users,
