@@ -1,0 +1,12 @@
+@import "./fonts.css";
+@import "tailwindcss";
+@import "./theme.css";
+
+* {
+  font-family: 'Cairo', 'Tajawal', sans-serif;
+}
+
+html, body {
+  direction: rtl;
+  scroll-behavior: smooth;
+}
